@@ -6,3 +6,6 @@ WORKDIR /data
 
 # Installs the Python library numpy
 RUN pip install eencijfer
+
+# Copies the config.INI file to the working directory
+COPY config.INI /data/config.INI
