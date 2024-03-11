@@ -23,5 +23,6 @@ RUN mkdir -p /root/eencijfer/eencijfer/result
 RUN mkdir -p /root/eencijfer/eencijfer/results
 
 RUN chmod -R 777 /root/eencijfer
+RUN chmod -R 777 /data/
 
 RUN find . -type f -name "*.asc" -exec mv {} /root/eencijfer/eencijfer/ \;
