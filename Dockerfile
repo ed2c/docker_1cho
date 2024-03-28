@@ -12,9 +12,9 @@ ADD . /data
 RUN pip install eencijfer
 
 # Copies the config.INI file to the working directory
-COPY config.INI /data/config.INI
-COPY config.INI /home/.eencijfer/config.INI
-COPY config.INI /root/.eencijfer/config.INI
+# COPY config.INI /data/config.INI
+# COPY config.INI /home/.eencijfer/config.INI
+# COPY config.INI /root/.eencijfer/config.INI
 RUN mkdir -p /root/eencijfer/eencijfer
 RUN mkdir -p /root/eencijfer/eencijfer/import_definitions
 RUN mkdir -p /root/.eencijfer/import_definitions
