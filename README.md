@@ -16,7 +16,7 @@ Ensure Docker is installed on your system. Docker is necessary to run the eencij
 
 # Configuration
 
-There is no configuration needed. If users want to take advantage of the config.INI possibilities of the Python eencijfer package, users can put a config.INI in the cwd to tailor the processing according to their specific use case.
+There is no configuration needed. If users want to take advantage of the config.INI possibilities of the Python eencijfer package, users can put a config.INI in the cwd to tailor the processing according to their specific use case. An example file is given (config.INI.example, rename this to config.INI and adapt contents to tailor your needs.). 
 The default configuration assumes reading and writing from the current working directory where the batch or bat script is executed. This means you do not need to specify paths unless you wish to change the default behavior.
 
 # Directories

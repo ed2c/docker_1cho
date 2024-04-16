@@ -1,0 +1,4 @@
+[default]
+LogLevel = INFO
+source_dir = .
+result_dir = ./result/
