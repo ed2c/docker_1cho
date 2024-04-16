@@ -1,0 +1,11 @@
+{
+	"name": "Run eencijfer",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+
+	// Use 'postAttachCommand' to run commands after the container is started.
+	"postAttachCommand": "eencijfer"
+
+}
