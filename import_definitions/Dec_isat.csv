@@ -1,3 +1,0 @@
-Label,StartingPosition,NumberOfPositions,Converter
-Opleidingscode,1,5,convert_to_object
-NaamOpleiding,6,180,convert_to_object
