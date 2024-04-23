@@ -39,3 +39,29 @@ This directory will be located in the current working directory where the batch 
 
 If you encounter any issues, ensure that Docker is running correctly on your system.
 Check the Docker logs for any error messages that may indicate what went wrong during the execution.
+
+# Codespaces
+## GitHub Codespaces
+This repository supports GitHub Codespaces, which allows you to create a cloud-based development environment directly from the repository. To create a Codespace, follow these steps:
+
+- Click on the "Code" button in the repository.
+- Select "Create codespace on main" from the dropdown menu.
+
+This will launch a Visual Studio Code instance hosted on GitHub, with the `eencijfer` module pre-installed. You can access the terminal within the Codespace and install any additional dependencies or run commands as needed. To upload "Decodering" files, right-click within the Codespace and select "Upload Files." 
+
+
+Please note that you should not upload "1cho" data files containing sensitive data. Instead, use the devpod solution described below. 
+
+
+
+Important Note: Do not upload "1cho" data files containing sensitive data to the Codespace. Instead, opt for the devpod solution.
+
+
+## Devpod Solution
+An alternative to using GitHub Codespaces is to use the devpod solution. Follow these steps:
+
+- Download the devpod for your operating system from the devpod repository.
+- Link the devpod to this repository.
+- Launch the devpod workspace.
+
+The devpod solution provides a secure and isolated environment for working with sensitive data files.
