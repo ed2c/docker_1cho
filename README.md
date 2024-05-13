@@ -42,6 +42,15 @@ Check the Docker logs for any error messages that may indicate what went wrong d
 
 # Codespaces
 ## GitHub Codespaces
+
+
+> [!WARNING]  
+> **Important Note:** Do not upload "1cho" data files containing sensitive data to the Codespace!
+>
+> Instead, opt for the devpod solution described in the next section.
+
+
+
 This repository supports GitHub Codespaces, which allows you to create a cloud-based development environment directly from the repository. To create a Codespace, follow these steps:
 
 - Click on the "Code" button in the repository.
@@ -54,7 +63,6 @@ Please note that you should not upload "1cho" data files containing sensitive da
 
 
 
-Important Note: Do not upload "1cho" data files containing sensitive data to the Codespace. Instead, opt for the devpod solution.
 
 
 ## Devpod Solution
