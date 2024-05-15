@@ -53,8 +53,9 @@ Check the Docker logs for any error messages that may indicate what went wrong d
 
 This repository supports GitHub Codespaces, which allows you to create a cloud-based development environment directly from the repository. To create a Codespace, follow these steps:
 
-- Click on the "Code" button in the repository.
-- Select "Create codespace on main" from the dropdown menu.
+1. Click on the "Code" button in the repository.
+2. Select "Create codespace on main" from the dropdown menu.
+
 
 This will launch a Visual Studio Code instance hosted on GitHub, with the `eencijfer` module pre-installed. You can access the terminal within the Codespace and install any additional dependencies or run commands as needed. To upload "Decodering" files, right-click within the Codespace and select "Upload Files." 
 
@@ -62,6 +63,31 @@ This will launch a Visual Studio Code instance hosted on GitHub, with the `eenci
 Please note that you should not upload "1cho" data files containing sensitive data. Instead, use the devpod solution described below. 
 
 
+<details>
+
+<summary>Accompanying screenshots of the above steps</summary>
+
+1. Click on the "Code" button in the repository.
+   
+![Code Button](assets/code_button.png)
+
+
+2. Select "Create codespace on main" from the dropdown menu.
+
+![Create Codespace](assets/create_codespace.png)
+
+
+3. Within a few minutes your codespace is ready and you are greeted with the man page of the `eencijfer` module
+
+
+![Codespace](assets/code_space.png)
+
+4. Upload your files to transform by right-clicking and choosing `New File...` 
+
+
+![Upload Files](assets/upload_file.png)
+
+</details>
 
 
 
