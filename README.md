@@ -57,7 +57,7 @@ This repository supports GitHub Codespaces, which allows you to create a cloud-b
 2. Select "Create codespace on main" from the dropdown menu.
 
 
-This will launch a Visual Studio Code instance hosted on GitHub, with the `eencijfer` module pre-installed. You can access the terminal within the Codespace and install any additional dependencies or run commands as needed. To upload "Decodering" files, right-click within the Codespace and select "Upload Files." 
+This will launch a Visual Studio Code instance hosted on GitHub, with the `eencijfer` module pre-installed. You can access the terminal within the Codespace and install any additional dependencies or run commands as needed. To upload "Decodering" files, right-click within the Codespace and select "Upload..." 
 
 
 Please note that you should not upload "1cho" data files containing sensitive data. Instead, use the devpod solution described below. 
@@ -82,7 +82,7 @@ Please note that you should not upload "1cho" data files containing sensitive da
 
 ![Codespace](assets/code_space.png)
 
-4. Upload your files to transform by right-clicking and choosing `New File...` 
+4. Upload your files to transform by right-clicking and choosing `Upload...` 
 
 
 ![Upload Files](assets/upload_file.png)
