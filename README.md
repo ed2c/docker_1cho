@@ -99,3 +99,39 @@ An alternative to using GitHub Codespaces is to use the devpod solution. Follow 
 - Launch the devpod workspace.
 
 The devpod solution provides a secure and isolated environment for working with sensitive data files.
+
+
+<details>
+
+<summary>Accompanying screenshots of the above steps</summary>
+
+1. Launch DevPod and create workspace by linking to this repository.
+   
+![Create Workspace](assets/devpod_create_workspace.png)
+
+
+2. Wait for the workspace to start up, you should see the man page of the `eencijfer` python module.
+
+![DevPod Confirmation](assets/devpod_confirm.png)
+
+
+3. The browser should launch a vscode instance in the browser, click the circled button to toggle the terminal.
+
+
+![DevPod VS Code](assets/devpod_vscode_launch.png)
+
+
+4. Run `eencijfer` command in the terminal.
+
+![DevPod eencijfer](assets/devpod_eencijfer.png)
+
+5. Upload your files to transform by right-clicking and choosing `Upload...` 
+
+
+![DevPod Upload Files](assets/devpod_upload_files.png)
+
+Right click on the file browser in order to upload files to the workspace.
+
+
+</details>
+
