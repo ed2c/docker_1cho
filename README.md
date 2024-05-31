@@ -106,7 +106,7 @@ Please note that you should not upload "1cho" data files containing sensitive da
 ## Devpod
 An alternative to using GitHub Codespaces is to use the devpod solution. Follow these steps:
 
-- Download the devpod for your operating system from the devpod repository.
+- Download the devpod for your operating system from the devpod repository. [DevPod](https://devpod.sh/)
 - Link the devpod to this repository.
 - Launch the devpod workspace.
 
