@@ -10,6 +10,11 @@ We have provided three methods to work with this python module with as little pr
 - [DevPod](#Devpod)
 
 
+> [!WARNING]  
+> **Important Note:** Do not upload "1cho" data files containing sensitive data to GitHub Codespace!
+> Only upload "Decodering" files, which filenames start with "Dec_"
+
+
 # Docker
 
 ## Features
@@ -106,6 +111,7 @@ Please note that you should not upload "1cho" data files containing sensitive da
 ## Devpod
 An alternative to using GitHub Codespaces is to use the devpod solution. Follow these steps:
 
+- Make Sure to have Docker Desktop installed and running on your system. 
 - Download the devpod for your operating system from the devpod repository. [DevPod](https://devpod.sh/)
 - Link the devpod to this repository.
 - Launch the devpod workspace.
