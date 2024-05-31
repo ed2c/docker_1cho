@@ -1,10 +1,17 @@
-# eencijfer Docker Image
+# eencijfer Docker
 
 This Docker image is designed to run the Python module [eencijfer](https://github.com/enningb/eencijfer), providing an easy method to prepare raw 1cho data. 
 The module is used for processing raw data files, and this image simplifies its deployment and execution.
 
+We have provided three methods to work with this python module with as little pre-requisites as possible:
 
-# Features
+- [Docker](#Docker)
+- [GitHub Codespaces](#Github-Codespaces)
+- [DevPod](#Devpod)
+
+# Docker
+
+## Features
 
 - The Docker image encapsulates the `eencijfer` Python module, making it straightforward to use without needing to install Python or the module on your system.
 - Dockerfile maps current working directory to allow user to input the raw data file.
@@ -13,6 +20,8 @@ The module is used for processing raw data files, and this image simplifies its 
 # Prerequisites
 
 Ensure Docker is installed on your system. Docker is necessary to run the eencijfer module encapsulated within the Docker image.
+
+You can download Docker for your system through the following link [Docker](https://docs.docker.com/get-docker/).
 
 # Configuration
 
@@ -91,7 +100,7 @@ Please note that you should not upload "1cho" data files containing sensitive da
 
 
 
-## Devpod Solution
+## Devpod
 An alternative to using GitHub Codespaces is to use the devpod solution. Follow these steps:
 
 - Download the devpod for your operating system from the devpod repository.
