@@ -9,6 +9,7 @@ We have provided three methods to work with this python module with as little pr
 - [GitHub Codespaces](#Github-Codespaces)
 - [DevPod](#Devpod)
 
+
 # Docker
 
 ## Features
@@ -67,6 +68,8 @@ This repository supports GitHub Codespaces, which allows you to create a cloud-b
 
 
 This will launch a Visual Studio Code instance hosted on GitHub, with the `eencijfer` module pre-installed. You can access the terminal within the Codespace and install any additional dependencies or run commands as needed. To upload "Decodering" files, right-click within the Codespace and select "Upload..." 
+
+In order to convert the raw files, run the command `eencijfer convert` in the terminal. This will convert to parquest files by default, in order to wite to csv you should run `eencijfer convert --export-format csv`.
 
 
 Please note that you should not upload "1cho" data files containing sensitive data. Instead, use the devpod solution described below. 
