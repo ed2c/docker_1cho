@@ -80,10 +80,6 @@ In order to convert the raw files, run the command `eencijfer convert` in the te
 Please note that you should not upload "1cho" data files containing sensitive data. Instead, use the devpod solution described below. 
 
 
-<details>
-
-<summary>Accompanying screenshots of the above steps</summary>
-
 1. Click on the "Code" button in the repository.
    
 ![Code Button](assets/code_button.png)
@@ -104,9 +100,10 @@ Please note that you should not upload "1cho" data files containing sensitive da
 
 ![Upload Files](assets/upload_file.png)
 
-</details>
 
+5. In order to convert the data files, run `eencijfer convert`. You can opt to use flags, such as -C to convert all columns to character, and `--export-format` to set the extension you wish. You can choose either csv or parquet for the time being.
 
+6. We have included a `work-in-progress` jupyter notebook to visualize the data. At the moment it assumes you have all 1cHo files and have converted them to parquet.
 
 ## Devpod
 An alternative to using GitHub Codespaces is to use the devpod solution. Follow these steps:
@@ -118,10 +115,6 @@ An alternative to using GitHub Codespaces is to use the devpod solution. Follow 
 
 The devpod solution provides a secure and isolated environment for working with sensitive data files.
 
-
-<details>
-
-<summary>Accompanying screenshots of the above steps</summary>
 
 1. Launch DevPod and create workspace by linking to this repository.
    
@@ -151,5 +144,6 @@ The devpod solution provides a secure and isolated environment for working with 
 Right click on the file browser in order to upload files to the workspace.
 
 
-</details>
+6. In order to convert the data files, run `eencijfer convert`. You can opt to use flags, such as -C to convert all columns to character, and `--export-format` to set the extension you wish. You can choose either csv or parquet for the time being.
 
+7. We have included a `work-in-progress` jupyter notebook to visualize the data. At the moment it assumes you have all 1cHo files and have converted them to parquet.
