@@ -105,6 +105,8 @@ Please note that you should not upload "1cho" data files containing sensitive da
 
 6. We have included a `work-in-progress` jupyter notebook to visualize the data. At the moment it assumes you have all 1cHo files and have converted them to parquet.
 
+7. Alternatively, you can download your files by right-clicking on them and choosing `Download`. Note, during testing we found out that some browsers have issues with downloading large files, if you encounter such an issues, try another browser. See also this [GitHub issue](https://github.com/gitpod-io/gitpod/issues/3294).
+
 ## Devpod
 An alternative to using GitHub Codespaces is to use the devpod solution. Follow these steps:
 
@@ -147,3 +149,5 @@ Right click on the file browser in order to upload files to the workspace.
 6. In order to convert the data files, run `eencijfer convert`. You can opt to use flags, such as -C to convert all columns to character, and `--export-format` to set the extension you wish. You can choose either csv or parquet for the time being.
 
 7. We have included a `work-in-progress` jupyter notebook to visualize the data. At the moment it assumes you have all 1cHo files and have converted them to parquet.
+
+8. Alternatively, you can download your files by right-clicking on them and choosing `Download`. Note, during testing we found out that some browsers have issues with downloading large files, if you encounter such an issues, try another browser. See also this [GitHub issue](https://github.com/gitpod-io/gitpod/issues/3294).
